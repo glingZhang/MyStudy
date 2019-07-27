@@ -1,0 +1,25 @@
+
+
+
+1. $(".tab").click(function () {  })
+
+2. $(".tab").on("click",function () {  })
+
+3. $(document).on("click", ".tab",function () {  })
+
+4. 使用<οnclick="">触发函数
+
+
+
+以上四种方法在不同设备上的可行程度
+
+
+
+自测。
+
+3>2>1>4
+--------------------- 
+作者：97pra 
+来源：CSDN 
+原文：https://blog.csdn.net/zxc123789tm/article/details/80894942 
+版权声明：本文为博主原创文章，转载请附上博文链接！
