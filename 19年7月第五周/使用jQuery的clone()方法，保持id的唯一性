@@ -1,0 +1,13 @@
+>https://blog.csdn.net/LZGS_4/article/details/43206285
+
+<span style="font-family:SimSun;font-size:18px;">var oId = 1;
+$('#single').click(function(){
+$('#single-answer').clone(true).attr('id','single-answer'+oId).appendTo('#single-answer-null').show();
+	oId += 1;
+});
+</span>
+--------------------- 
+作者：励志故事 
+来源：CSDN 
+原文：https://blog.csdn.net/LZGS_4/article/details/43206285 
+版权声明：本文为博主原创文章，转载请附上博文链接！
