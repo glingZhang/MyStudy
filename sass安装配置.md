@@ -52,9 +52,9 @@ npm install gulp-jshint --save-dev
 
 
 
+全局安装完成之后，还需要在每个要使用的gulp项目中都单独安装一次，把目录切换到项目文件夹中输入cmd，然后在命令行中执行：
+$ npm install --save-dev  gulp
 
-作为项目开发依赖安装。
+安装gulp-sass
+$ npm install gulp-sass
 
-            全局安装完成之后，还需要在每个要使用的gulp项目中都单独安装一次，把目录切换到项目文件夹中输入cmd，然后在命令行中执行：
-
-                npm install --save-dev  gulp
