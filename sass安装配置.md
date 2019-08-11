@@ -1,10 +1,8 @@
 ## sass安装以及环境配置
->gulpfile.js : https://www.jianshu.com/p/4654eb2bc8d7
-　　sass是Ruby语言开发的一个用于动态编程css文件的框架 所以sass的运行依赖Ruby环境
+　　Sass 是一款强化 CSS 的辅助工具，它在 CSS 语法的基础上增加了变量 、嵌套 、混合 、导入 等高级功能，这些拓展令 CSS 更加强大与优雅。使用 Sass 以及 Sass 的样式库（如 Compass）有助于更好地组织管理样式文件，以及更高效地开发项目。sass是Ruby语言开发的一个用于动态编程css文件的框架,所以sass的运行依赖Ruby环境
 
 #### sass和scss的区别
-　　SCSS 是 Sass 3 引入新的语法，其语法完全兼容 CSS3，并且继承了 Sass 的强大功能。也就是说，任何标准的 CSS3 样式表都是具有相同语义的有效的 SCSS 文件
-主要的就是sass是靠缩进表示嵌套关系，scss是花括号
+　　SCSS 是Sass 3 引入新的语法，其语法完全兼容 CSS3，并且继承了 Sass 的强大功能。主要的就是sass是靠缩进表示嵌套关系，scss是花括号
 
 #### 1、安装sass
 可以用gem也可以用npm安装，这里我用的gem安装的。    
@@ -52,7 +50,7 @@ $ sudo npm install gulp --unsafe-perm -g
 
 
 ##### ② 安装插件
-　　在cmd项目目录下开始本地安装gulp各种插件，在这里找你需要的插件。有四个是用得最多的，必备的    
+　　在cmd项目目录下开始本地安装gulp各种插件，在这里找你需要的插件。以下四个是用得最多的。  
 　　　　语法检查   （gulp-jshint）    
 　　　　合并文件   （gulp-concat）    
 　　　　压缩代码   （gulp-uglify）    
@@ -70,13 +68,13 @@ $ npm install --save-dev  gulp
 $ gulp -v
 ```
 
-　　安装gulp-sass，把sass转换成css:    
+　　安装gulp-sass（把sass转换成css）:    
 ```
 $ npm install gulp-sass  
 ```
 
 　　新建一个gulpfile.js    
-gulpfile.js内容如下： 
+gulpfile.js： 
    
 
 ```
@@ -105,6 +103,14 @@ gulp.task('default',['demo']);
 $ gulp init //这种是自定义初始化。
 $ gulp init -y  //这种自动初始化。
 ```
+
+
+
+#### 附：
+
+gulp基本操作：
+>https://www.cnblogs.com/thomaspha/p/5884230.html
+
 
 
 
